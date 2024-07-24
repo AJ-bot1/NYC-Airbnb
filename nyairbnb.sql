@@ -38,7 +38,7 @@ END )
 
 
 -- NYC Borough's Share Airbnbs
--- There are 22268 properties listed in this dataset after cleansing
+-- (There are 22268 properties listed in this dataset after cleansing)
 
 SELECT Borough, (COUNT(*)* 100) / 22268 AS Share
 FROM nylist
